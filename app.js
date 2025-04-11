@@ -4,8 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const PORT = 3000;
 
-const MONGO_URI =
-  "mongodb+srv://api_bb:cmzBNvHgcOx4Hsni@backbone-pri.8bzqn.mongodb.net/?retryWrites=true&w=majority&appName=Backbone";
+const MONGO_URI = "";
 
 app.use(express.json());
 
